@@ -2,9 +2,11 @@ import '../index.css';
 
 export default function Content() {
     return (
+        <>
+        <div className="image">
+        </div>
         <div className='content'>
-            <div className="image">
-            </div>
+            
             <div className='contact'>
                 <h3 className='name item'>Laurie Whitwell</h3>
                 <h4 className='role item'> FrontEnd Developer</h4>
@@ -17,12 +19,13 @@ export default function Content() {
             <div className='about'>
                 <h4 className='element'>About</h4>
                 <p>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic</p>
-                <h4> Interests</h4>
+                <h4 className='element'> Interests</h4>
                 <p>I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
 
             </div>
             <div className='footer'>
             </div>
         </div>
+        </>
     );
 }
